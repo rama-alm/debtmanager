@@ -39,7 +39,7 @@ erDiagram
 
     debt {
         INTEGER id PK
-        REAL amount 
+        INTEGER amount 
         TEXT currency       
         TEXT created_on
         TEXT status
@@ -52,7 +52,7 @@ erDiagram
         INTEGER id PK
         TEXT created_on
         TEXT type
-        REAL amount 
+        INTEGER amount 
        TEXT currency
        INTEGER debt_id FK
     }
